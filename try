@@ -1,0 +1,35 @@
+2.to create table in sql
+
+create table customer(
+  customer_id number(10) primary key,
+  customer_name varchar(20) not  null,
+  email_id varchar(20),
+  salary number(10,2),
+  address varchar(15)
+);
+
+3.to show description of table
+
+desc customer;
+
+4.to drop table
+
+drop customer;
+
+5.sql query to insert datas in table
+
+INSERT INTO table_name
+VALUES (value1, value2, ...);
+      
+      OR
+
+INSERT INTO table_name (column1, column2, ...)
+VALUES (value1, value2, ...);
+
+
+6.demonstrate use of select statement
+
+SELECT col1, col2 FROM tablename;
+
+7.
+
